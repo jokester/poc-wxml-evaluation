@@ -1,0 +1,6 @@
+<!-- vim: ft=xml -->
+<view wx:if="{{cond1}}">
+    <text class="k1">{{cond1}}</text>
+    <text>hey</text>
+</view>
+
