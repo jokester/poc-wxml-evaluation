@@ -13,7 +13,7 @@ function evalWxmlJs(jsPath, wxmlPath, data) {
     window: {},
     __sandbox__file: wxmlPath,
     __sandbox__input: data,
-    __sandbox__emit: (...v) => values.push(v),
+    __sandbox__emit: (v) => values.push(v),
     console: console,
   };
 
